@@ -1,19 +1,25 @@
-import AdvantagesCard from "./components/AdvantagesCard/AdvantagesCard"
-import pic from "./assets/image/ok-circle.svg"
+// import AdvantagesCard from "./components/AdvantagesCard/AdvantagesCard"
+// import pic from "./assets/image/ok-circle.svg"
 
 import textContent from "./assets/data/text.json"
+import Layout from "./components/Layout"
+import OpportunitiesComponent from "./components/OpportunitiesComponent/index"
+import Button from "./components/Button"
+
 
 const App = () => {
-    return <div className="wrapper-card">
-        {textContent.map(element => element.cardType === "AdvantagesCard" &&
-         element.cardText.map((item, index) => <AdvantagesCard
-         key={index}
-         text={item}
-         img={pic}
-         />)
-        )}
-        
-    </div>
+
+    return <Layout
+        className="opportunities"
+        name="Возможности Ed Space"
+        description="Поможем перенести корпоративную академию, базу знаний, учебные курсы, настроим систему мотивации обучения, круглосуточная поддержка."
+        >
+            <div className="wrapper-card">
+                <OpportunitiesComponent/>   
+            </div>
+        <Button/>
+    </Layout>
+
 }
 
 export default App

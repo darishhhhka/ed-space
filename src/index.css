@@ -1,12 +1,37 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');* {
   margin: 0;
-  font-family: monospace;
+  font-family: Inter;
+}
+
+.opportunities{
+  background-image: url("../public/image/bgOpportunities.png");
+  background-position: center;
+  color: #2F2A37;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opportunities__title{
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+
+.opportunities__description{
+  color: #6E6C72;
+  font-size: 20px;
+  margin-top: 23px;
+  max-width: 776px;
+  text-align: center;
 }
 
 .wrapper-card{
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  gap: 26px;
+  margin-top: 84px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 84px;
 }
 

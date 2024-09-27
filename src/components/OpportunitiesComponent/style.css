@@ -1,0 +1,36 @@
+.opportunities-card{
+    width: 388px;
+    height: 317px;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 48px 60px 37px 60px;
+    box-sizing: border-box;
+    background: linear-gradient(138.64deg, #FFFFFF -21.71%, rgba(243, 247, 239, 0) 94.44%);
+    backdrop-filter: blur(11px);
+    box-shadow: 2px 2px 8px 1px #0000000A;
+    border-radius: 10px;
+    color: #2F2A37;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    cursor: pointer;
+
+    &:hover{
+        backdrop-filter: blur(11px);
+
+        box-shadow: 2px 2px 8px 1px #0000000A;
+        
+        box-shadow: 11px 6px 48px 4px #36FF9F;
+        
+    }
+}
+
+.opportunities-card__title{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.opportunities-card__description{
+    font-weight: 500;
+    font-size: 14px;
+}
+

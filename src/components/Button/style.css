@@ -1,0 +1,13 @@
+.button{
+    background: linear-gradient(92.02deg, #6BFFCA 13.34%, #00FF47 129.97%);
+    border: none;
+    line-height: 55px;
+    padding: 0 27px;
+    color: #2F2A37;
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 40px;
+    cursor: pointer;
+}
