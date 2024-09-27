@@ -10,4 +10,5 @@
     display: block;
     border-radius: 40px;
     cursor: pointer;
+    width: fit-content;
 }

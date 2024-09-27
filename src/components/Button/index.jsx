@@ -1,7 +1,12 @@
 import "./style.css"
 
-export default () =>{
-    return <button className="button">
-        ПОПРОБОВАТЬ БЕСПЛАТНО
+
+
+export default ({children, setOpenModal, func}) =>{
+    return <button 
+    className="button"
+    onClick={setOpenModal ? e => setOpenModal(true) : func}
+    >
+        {children}
     </button>
 }
