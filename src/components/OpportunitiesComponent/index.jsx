@@ -1,4 +1,4 @@
-import data from "../../assets/data/text.json"
+import data from "../../assets/data/opportunities.json"
 import "./style.css"
 
 export default ({img, title, content}) => {
