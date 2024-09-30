@@ -1,4 +1,48 @@
-.banner{
-    padding: 126px 149px;
+.banner-wrraper{
+    padding: 100px 50px;
+    /* display: flex; */
+    /* justify-content: space-between; */
 
+    align-items: center;
+    gap: 40px;
+    background-image: url("/public/image/ellipse.png");
+    background-position:  right -35% bottom 45%;
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 80vh;
+}
+
+.banner__content{
+    display: flex;
+}
+
+.banner__content_img{
+    max-width: 650px;
+    max-height: 400px;
+}
+
+.banner__content_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner__content_text_title{
+    font-size: 54px;
+    font-weight: 800;
+    color: #2F2A37;
+}
+
+.banner__content_text_description{
+    font-size: 20px;
+    color: #6E6C72;
+}
+
+.banner-wrapper__btn{
+    margin-left: 90px;
 }
